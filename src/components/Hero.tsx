@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -32,8 +32,8 @@ const Hero: React.FC = () => {
           <a href="https://www.linkedin.com/in/chandra-putra-ciptaningtyas" aria-label="LinkedIn Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
             <Linkedin size={28} />
           </a>
-          <a href="https://twitter.com/ChandraPC3000" aria-label="Twitter Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
-            <Twitter size={28} />
+          <a href="https://www.instagram.com/ciptaning.chan" aria-label="Instagram Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+            <Instagram size={28} />
           </a>
         </div>
       </div>
