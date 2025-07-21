@@ -27,7 +27,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400">DA</a>
+        <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400">CC</a>
         
         <div className="hidden md:flex items-center space-x-6">
           {navLinks.map(link => (
