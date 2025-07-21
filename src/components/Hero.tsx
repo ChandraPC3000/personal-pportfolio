@@ -9,10 +9,13 @@ const Hero: React.FC = () => {
           Hi, I'm Chandra Putra Ciptaningtyas
         </h1>
         <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-8">
-          A Senior Frontend Engineer & UI/UX Designer
+          Aspiring Data Scientist | Data Science & Machine Learning Enthusiast
         </p>
         <p className="max-w-3xl mx-auto text-gray-600 dark:text-gray-300 mb-10">
-          I build beautiful, responsive, and user-friendly web applications. My expertise lies in React, TypeScript, and Tailwind CSS, with a keen eye for design and user experience.
+          Currently, I’m a Data Science Intern at Codveda Technologies, with a background in statistical modeling,
+          machine learning, and data analysis. I’ve contributed to disease surveillance projects and worked with 
+          tools like Python, R, SQL, TensorFlow, and Keras. My goal is to leverage data science to drive impactful 
+          business decisions and digital transformation.
         </p>
         <div className="flex justify-center items-center space-x-4 mb-10">
           <a href="#contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 shadow-lg hover:shadow-xl">
@@ -23,13 +26,13 @@ const Hero: React.FC = () => {
           </a>
         </div>
         <div className="flex justify-center space-x-6">
-          <a href="#" aria-label="GitHub Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+          <a href="https://github.com/ChandraPC3000" aria-label="GitHub Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
             <Github size={28} />
           </a>
-          <a href="#" aria-label="LinkedIn Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+          <a href="https://www.linkedin.com/in/chandra-putra-ciptaningtyas" aria-label="LinkedIn Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
             <Linkedin size={28} />
           </a>
-          <a href="#" aria-label="Twitter Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+          <a href="https://twitter.com/ChandraPC3000" aria-label="Twitter Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
             <Twitter size={28} />
           </a>
         </div>
