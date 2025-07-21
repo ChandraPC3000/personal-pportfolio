@@ -8,21 +8,24 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
           <div className="w-full md:w-1/3 flex justify-center">
             <img 
-              src="https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/2563eb/FFFFFF/png?text=DA" 
-              alt="Dualite Alpha" 
+              src="https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/2563eb/FFFFFF/png?text=Chandra+Putra+Ciptaningtyas" 
+              alt="Chandra Putra Ciptaningtyas" 
               className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-lg border-4 border-blue-500"
             />
           </div>
           <div className="w-full md:w-2/3 text-center md:text-left">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Crafting Digital Experiences</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Passionate Data Scientist & Developer</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-              As a seasoned Frontend Engineer with a passion for design, I bridge the gap between aesthetics and functionality. My journey in web development is driven by a commitment to creating interfaces that are not only visually appealing but also intuitive and accessible to all users.
+              I’m Chandra Putra Ciptaningtyas, an aspiring Data Scientist with a strong foundation in statistics, machine learning, and data analysis. My passion lies in harnessing the power of data to uncover insights, create predictive models, and help businesses make informed decisions.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-              I specialize in the React ecosystem, leveraging TypeScript for robust, scalable applications and Tailwind CSS for rapid, maintainable styling. I believe in writing clean code, following best practices, and continuously learning to stay at the forefront of web technologies.
+              Currently, I work as a Data Science Intern at Codveda Technologies, where I’m developing predictive models, cleaning and processing data, and building data visualizations to aid decision-making. I’ve previously interned at BRIN (National Research and Innovation Agency), where I worked on time series analysis for disease outbreak prediction.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+              I specialize in Python and R for data analysis, with expertise in machine learning algorithms (such as XGBoost, Scikit-learn) and deep learning frameworks (TensorFlow, Keras). I also have hands-on experience in tools like Tableau and Power BI for data visualization.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              When I'm not coding, I enjoy exploring new design trends, contributing to open-source projects, and mentoring aspiring developers.
+              Outside of work, I’m deeply involved in the data science community, contributing to open-source projects, and mentoring aspiring data scientists. I’m also passionate about lifelong learning, always seeking to improve my skills and stay up-to-date with the latest advancements in AI and machine learning.
             </p>
           </div>
         </div>
