@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
           <div className="w-full md:w-1/3 flex justify-center">
             <img 
-              src="https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/2563eb/FFFFFF/png?text=Chandra+Putra+Ciptaningtyas" 
+              src="https://img-wrapper.vercel.app/image?url=https://placehold.co/400x400/2563eb/FFFFFF/png?text=CC" 
               alt="Chandra Putra Ciptaningtyas" 
               className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-lg border-4 border-blue-500"
             />
