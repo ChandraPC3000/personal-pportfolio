@@ -12,28 +12,28 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce site with a modern UI, product filtering, and a secure checkout process.',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Redux'],
+    title: 'Disease Outbreak Prediction System',
+    description: 'A machine learning-based predictive model for forecasting disease outbreaks using time series analysis.',
+    tags: ['Python', 'Time Series Analysis', 'Machine Learning', 'Scikit-learn'],
     imageUrl: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/600x400/3b82f6/ffffff/png?text=Project+1',
     liveUrl: '#',
-    repoUrl: '#',
+    repoUrl: 'https://github.com/ChandraPC3000/disease-outbreak-prediction',
   },
   {
-    title: 'Task Management App',
-    description: 'A Kanban-style task management application with drag-and-drop functionality and real-time collaboration.',
-    tags: ['Next.js', 'Firebase', 'Framer Motion', 'Zustand'],
+    title: 'Stock Price Prediction Model',
+    description: 'A stock price prediction model using historical data and machine learning techniques like linear regression and XGBoost.',
+    tags: ['Python', 'Machine Learning', 'XGBoost', 'Pandas'],
     imageUrl: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/600x400/10b981/ffffff/png?text=Project+2',
     liveUrl: '#',
-    repoUrl: '#',
+    repoUrl: 'https://github.com/ChandraPC3000/stock-price-prediction',
   },
   {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website to showcase my skills and projects, built with a focus on performance and aesthetics.',
-    tags: ['Vite', 'React', 'TypeScript', 'Tailwind CSS'],
+    title: 'Interactive Data Visualization Dashboard',
+    description: 'An interactive data visualization dashboard built using Tableau, providing business insights and key metrics for decision-making.',
+    tags: ['Tableau', 'Data Visualization', 'Business Intelligence', 'Dashboard'],
     imageUrl: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/600x400/8b5cf6/ffffff/png?text=Project+3',
     liveUrl: '#',
-    repoUrl: '#',
+    repoUrl: 'https://github.com/ChandraPC3000/data-visualization-dashboard',
   },
 ];
 
