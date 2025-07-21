@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -10,14 +10,14 @@ const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Chandra Putra Ciptaningtyas. All Rights Reserved.
           </p>
           <div className="flex space-x-4">
-            <a href="#" aria-label="GitHub Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+            <a href="https://github.com/ChandraPC3000" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
               <Github size={24} />
             </a>
-            <a href="#" aria-label="LinkedIn Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/chandra-putra-ciptaningtyas" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
               <Linkedin size={24} />
             </a>
-            <a href="#" aria-label="Twitter Profile" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
-              <Twitter size={24} />
+            <a href="https://www.instagram.com/ciptaning.chan" aria-label="Instagram Profile" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+              <Instagram size={24} />
             </a>
           </div>
         </div>
