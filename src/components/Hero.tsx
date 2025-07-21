@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <section id="hero" className="min-h-[calc(100vh-69px)] flex items-center bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4">
-          Hi, I'm Dualite Alpha
+          Hi, I'm Chandra Putra Ciptaningtyas
         </h1>
         <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-8">
           A Senior Frontend Engineer & UI/UX Designer
